@@ -1,0 +1,115 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+        /* Todos os elementos remover margin e padding padrões */
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-size: 3vw;
+        } 
+
+
+        html, body{
+            min-height: 100vh; /*Significa que o html e o body vao ocupar 100% da altura da tela (viewport height) */
+            background-color: darkgray;
+        }
+        header{
+            background-color: black;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-family: "Passion One", sans-serif;
+            font-style: normal;
+        }
+
+        header > h1{
+            padding-top: 50px;
+            font-variant: small-caps;
+            font-size: 5vw;
+        }
+
+        header > p{
+            padding-bottom: 50px;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+        }
+
+        main{
+            font-family: "Sriracha", cursive, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        section{
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            padding-left: 30px;
+            
+    
+        }
+
+        section.normal{
+            background-color: white;
+            background-size: 500px;
+            background-repeat: no-repeat;
+            color: black;
+
+        }
+
+        section.imagem{
+            background-color: black;
+            background-image: url(../imagens/background001.jpg);
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: cover;
+            box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.454);
+    
+            color: white;
+            background-position: fixed;
+
+        }
+
+        section > p{
+            padding-bottom: 30px;
+
+            
+    
+        }
+
+        section.imagem > p{
+            display: inline-block;
+            background-color: rgba(23, 18, 18, 0.491);
+            padding: 5px;
+    
+            color: white;
+
+        }
+
+
+        #back_img2{
+            background-image: url(../imagens/background002.jpg);
+            color: black;
+            
+            
+        }
+    
+        main p{
+            line-height: 2em;
+        }
+
+        footer{
+            background-color: black;
+            font-family: "Passion One", sans-serif;
+            color: white;
+            text-align: 
+            center;
+            padding: 5px;
+           
+        }
+
+      
